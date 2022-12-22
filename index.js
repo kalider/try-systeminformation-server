@@ -11,3 +11,5 @@ si.diskLayout().then(data => console.log('disk', data));
 si.osInfo().then(data => console.log('os', data));
 
 si.system().then(data => console.log('system', data));
+
+si.uuid().then(data => console.log('uuid', data));
