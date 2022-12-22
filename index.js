@@ -1,7 +1,9 @@
 const si = require('systeminformation');
 
-si.cpu().then(data => console.log(data));
+si.cpu().then(data => console.log('cpu', data));
 
-si.mem().then(data => console.log(data));
+si.mem().then(data => console.log('mem', data));
 
-si.fsSize().then(data => console.log(data));
+si.fsSize().then(data => console.log('fs', data));
+
+si.diskLayout().then(data => console.log('disk', data));
