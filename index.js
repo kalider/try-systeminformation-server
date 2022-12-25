@@ -15,3 +15,5 @@ si.osInfo().then(data => console.log('os', data));
 si.system().then(data => console.log('system', data));
 
 si.uuid().then(data => console.log('uuid', data));
+
+si.cpuTemperature().then(data => console.log('cpuTemp', data)); 
