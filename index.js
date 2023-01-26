@@ -17,3 +17,5 @@ si.uuid().then(data => console.log('uuid', data));
 si.cpuTemperature().then(data => console.log('cpuTemp', data)); 
 
 si.memLayout().then(data => console.log('memLayout', data));
+
+si.cpuCurrentSpeed().then(data => console.log('cpuCurrentSpeed', data));
