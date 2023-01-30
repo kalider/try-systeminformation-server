@@ -19,3 +19,5 @@ si.cpuTemperature().then(data => console.log('cpuTemp', data));
 si.memLayout().then(data => console.log('memLayout', data));
 
 si.services('mariadb, apache2').then(data => console.log(data));
+
+si.cpuCurrentSpeed().then(data => console.log('cpuCurrentSpeed', data));
