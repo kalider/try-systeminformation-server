@@ -17,3 +17,5 @@ si.uuid().then(data => console.log('uuid', data));
 si.cpuTemperature().then(data => console.log('cpuTemp', data)); 
 
 si.memLayout().then(data => console.log('memLayout', data));
+
+si.services('mariadb, apache2').then(data => console.log(data));
